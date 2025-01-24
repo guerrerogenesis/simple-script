@@ -5,6 +5,7 @@ Esta función validateData valida un arreglo de objetos con la siguiente estruct
     -type: (cadena de texto, puede ser "product" o "category").
     -value: (cadena de texto que contiene el nombre de un producto o una categoría).
 
+
 ### Reglas de validación
     -ID único:
         La función verifica que no haya IDs duplicados en el arreglo.
@@ -23,5 +24,5 @@ La función devuelve un arreglo con los datos separados en dos categorías:
 
 
 ### Uso
-Recomiendo el uso de Live Server, una extension de Visual Studio Code para desplegar proyectos de manera sencilla de manera local.
+Recomiendo el uso de Live Server, una extension de Visual Studio Code para desplegar proyectos de manera sencilla en tu entorno local.
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
